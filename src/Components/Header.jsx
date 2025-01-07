@@ -2,10 +2,17 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Header = () => {
-    const navBar=[{
-        name:"Products",
-        url:"./products"
-      }]
+    const navBar=[
+{
+    
+        name:"Home",
+        url:"./"
+      
+},
+{
+    name:"Products",
+    url:"./products"
+  }]
   return (
     <>
     <div className='container'>
